@@ -1,0 +1,5 @@
+.env
+node_modules/
+/lambda
+/coverage
+yarn.lock

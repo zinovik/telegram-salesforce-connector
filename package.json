@@ -1,0 +1,49 @@
+{
+  "name": "telegram-salesforce-connector",
+  "version": "0.1.0",
+  "description": "simple telegram bot",
+  "main": "dist",
+  "engines": {
+    "node": ">=12.6",
+    "npm": ">=6.9"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-polyfill": "^6.26.0",
+    "dotenv": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/aws-lambda": "^8.10.31",
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "@types/qs": "^6.5.3",
+    "jest": "^24.9.0",
+    "netlify-lambda": "^1.6.3",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typemoq": "^2.1.0",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda",
+    "format": "prettier --write \"src/**/*.ts*\" \"test*/**/*.ts*\"",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "test": "jest --config jestconfig.json --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zinovik/telegram-salesforce-connector.git"
+  },
+  "author": "Max Zinovik",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zinovik/telegram-salesforce-connector/issues"
+  },
+  "homepage": "https://github.com/zinovik/telegram-salesforce-connector#readme"
+}
