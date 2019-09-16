@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/zinovik/telegram-salesforce-connector.svg?branch=master)](https://travis-ci.org/zinovik/telegram-salesforce-connector)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/875db5e2-3246-4680-ad42-7bb637fff095/deploy-status)](https://app.netlify.com/sites/telegram-salesforce-connector/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/127fe29a-19d4-4279-9ab0-326b338b4fd9/deploy-status)](https://app.netlify.com/sites/telegram-salesforce-connector/deploys)
 
 **working**
 
